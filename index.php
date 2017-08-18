@@ -9,16 +9,7 @@
  * file that was distributed with this source code.
  */
 
-$app = new Panda\Foundation\Application(
-    $basePath = realpath(__DIR__ . '/../')
-);
-
 /**
- * Register application BootLoaders
+ * Redirect call to public folder
  */
-require 'registry.php';
-
-/**
- * Return the application to the caller to start the application.
- */
-return $app;
+require_once 'public/index.php';
