@@ -50,7 +50,6 @@ class BaseController extends Controller
      */
     public function finalizeResponse(Response $response)
     {
-        // todo: implement this function to finalize response with data from the framework
         return $response;
     }
 }
